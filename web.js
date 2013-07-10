@@ -5,6 +5,8 @@ var fileName = "index.html";
 var data = fs.readFileSync(fileName, "utf8");
 
 
+
+
 var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
